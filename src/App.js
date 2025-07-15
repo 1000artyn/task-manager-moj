@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // Base URL for backend API
-const API_BASE = 'http://localhost:5000/tasks';
+const API_BASE = 'https://task-manager-moj-backend.vercel.app';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   const fetchTasks = async () => {
-    const res = await axios.get(API_BASE);
+    const res = await axios.get(`${API_BASE}/api/tasks`);
     setTasks(res.data);
   };
 
