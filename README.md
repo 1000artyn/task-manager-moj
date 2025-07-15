@@ -20,3 +20,8 @@ The main body code for the front end is in src/App.js
 
 However, for your convinience I have provided a live version which can be found here:
 https://task-manager-moj.vercel.app/
+(There may be a slight delay with the live version as I am using a free hosting tier for it)
+
+If you have any questions, please contact me using the email address on my CV
+
+I hope to hear from you soon!
