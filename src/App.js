@@ -29,7 +29,7 @@ function App() {
   // POST a new task to the backend
   const createTask = async () => {
     if (!form.title || !form.dueDate) {
-      alert('Title and due date are required.');
+      alert('Title and due date/time are required.');
       return;
     }
 
