@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // Base URL for backend API
-const API_BASE = 'http://localhost:5000/tasks';
+const API_BASE = 'https://task-manager-moj.onrender.com/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
