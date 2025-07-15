@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  header {
+    background: #1D1D1B;
+    color: #fff;
+    padding: 30px 0 30px;
+    h1 {
+      margin-top: 0;
+    }
+    .moj-logo {
+      position: absolute;
+      left: 10%;
+      top: 10px;
+      @media only screen and (max-width: 900px) {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0 0 15px;
+      }
+    }
+  }
+  button {
+    background: #1D609D;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    padding: 0 15px;
+    margin: 0 8px;
+    font-size: 14px;
+    border: 2px solid #1D609D;
+    &:hover {
+      background: #00B1EB;
+      color: #00355D;
+      border: 2px solid #00B1EB;
+    }
+    &:active {
+      border: 2px solid #00355D;
+    }
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid grey;
+      p {
+        margin: 5px 0 10px;
+      }
+    }
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+
+}
